@@ -1,0 +1,23 @@
+.giftcard{
+    background-color: #F3F3F3;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.gift_card_container img{
+   padding: 10%; 
+}
+@media only screen and (max-width: 419px) {
+    .gift_card_container img{
+        position: relative;
+        left: 10%;
+     }
+     .gift_card_container p{
+         position: relative;
+         top: 1vh;
+         left: 25%;
+         font-size: 0.9rem;
+         width: 50%;
+     }
+}

@@ -1,0 +1,12 @@
+.topbar{
+    height: 5vh;
+    background-color: var(--second-color);
+    color: var(--color-bg);
+    display: flex;
+    align-items: center;
+}
+.topbar div{
+    position: relative;
+    left: 2.60rem;
+    padding: 0.3rem;
+}

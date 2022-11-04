@@ -1,0 +1,109 @@
+.emsc_second-page{
+  height: 100vh;
+  width: 80%;
+}
+.images {
+  display: flex;
+}
+.images{
+  width: 20%;
+}
+.images img {
+  padding: 30px;
+  width: 100%;
+  height: auto;
+}
+#textontop div {
+  position: relative;
+  top: -80vh;
+  left: 42vw;
+  width: 80vw;
+  height: 85vh;
+  background-color: var(--color-bg);
+}
+#textontop div h1 {
+  font-family: "Ogg";
+  font-weight: 300;
+  font-size: 3.75rem;
+  padding-top: 3.5rem;
+  padding-left: 2rem;
+}
+#textontop div p {
+  position: relative;
+  left: 5%;
+  width: 55%;
+  font-size: 1.2rem;
+  color: #000000;
+  padding-top: 3.5rem;
+}
+
+@media only screen and (max-width: 1550px) {
+  #textontop div {
+    position: relative;
+    top: -80vh;
+    left: 33vw;
+    width: 60vw;
+    height: 85vh;
+    background-color: var(--color-bg);
+    margin-bottom: 6rem;
+  }
+  #textontop div h1 {
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+  }
+  #textontop div p {
+    position: relative;
+    left: 5%;
+    width: 715px;
+    font-size: 1.2rem;
+    color: #000000;
+    padding-top: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .images {
+    position: relative;
+    top: 55vh;
+    width: 100%;
+  }
+  #textontop div {
+    position: relative;
+    left: 5vw;
+    top: -60vh;
+    width: 75vw;
+    height: 85vh;
+    background-color: var(--color-bg);
+  }
+}
+@media only screen and (max-width: 419px) {
+  .emsc_second-page{
+    position: relative;
+    top: 10vh;
+  }
+  #textontop div {
+    position: relative;
+    top: -70vh;
+    width: 90vw;
+    height: 85vh;
+    background-color: var(--color-bg);
+  }
+  #textontop div h1 {
+    font-size: 2rem;
+  }
+  #textontop div p {
+    left: 5%;
+    font-size: 0.9rem;
+    color: #000000;
+    padding-top: 2rem;
+    width: 80vw;
+  }
+  .images{
+    position: relative;
+    display: block;
+    top: 55vh;
+    left: 10%;
+    width: 100%;
+  }
+}

@@ -1,0 +1,36 @@
+.ourblog h1 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3.75rem;
+  line-height: 120%;
+  color: #333333;
+  position: relative;
+  left: 10%;
+}
+.ourblog h2 {
+  position: relative;
+  left: 10%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 140%;
+}
+
+@media only screen and (max-width: 1450px) {
+  .ourblog h1 {
+    font-size: 2.75rem;
+  }
+  .ourblog h2 {
+    font-size: 28px;
+
+  }
+}
+@media only screen and (max-width: 419px) {
+  .ourblog{
+    margin-top: 50rem;
+  }
+  .ourblog h2 {
+    font-size: 18px;
+
+  }
+}

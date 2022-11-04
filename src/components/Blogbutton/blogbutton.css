@@ -1,0 +1,39 @@
+.cta_button{
+    position: relative;
+    top: 5vh;
+    left: 45%;
+}
+.cta_button button{
+    padding: 1rem 4rem;
+    font-size: 1.1rem;
+    color: var(--second-color);
+    cursor: pointer;
+    border: 1px solid var(--second-color);
+    background-color: #FFFFFF;
+}
+@media only screen and (max-width: 1750px) {
+    .cta_button{
+        top: 5vh;
+        left: 45%;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .cta_button{
+        top: 60vh;
+        left: 35%;
+    }
+}
+@media only screen and (max-width: 419px) {
+    .cta_button{
+        top: 92vh;
+        left: 20%;
+    }
+    .cta_button button{
+        padding: 0.8rem 2rem;
+        font-size: 1rem;
+        color: var(--second-color);
+        cursor: pointer;
+        border: 1px solid var(--second-color);
+        background-color: #FFFFFF;
+    }
+}

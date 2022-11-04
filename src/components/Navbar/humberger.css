@@ -1,0 +1,106 @@
+.bm-burger-button {
+    position: fixed;
+    width: 26px;
+    height: 24px;
+    left: 7px;
+    top: 7px;
+    display: none;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #fff;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #072340;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 40px;
+    width: 14px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #fff;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 20px;
+    display: none;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    position: absolute;
+    background: var(--second-color);
+    font-size: 1.5rem;
+    height: 60vh;
+    width: 300px;
+    top: 0;
+    right: 0;
+    display: none;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: var(--color-bg);
+    padding: 1em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+    padding: 15px;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: var(--second-color);
+  }
+  .menu-item,.menu-item--small{
+    background-color: var(--second-color);
+    /* border-bottom: 0.5px solid #fff; */
+  }
+
+  @media only screen and (max-width: 1330px) {
+    .bm-burger-button{
+      display: block;
+    }
+    .bm-menu-wrap {
+      display: block;
+    }
+    .bm-item-list {
+      color: var(--color-bg);
+      padding-top: 3em;
+    }
+    .bm-menu{
+      display: block;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+    .bm-burger-button {
+        width: 20px;
+        height: 20px;
+      }  
+}
+@media only screen and (max-width: 410px) {
+  .bm-burger-button {
+    width: 19px;
+    height: 15px;
+  } 
+}

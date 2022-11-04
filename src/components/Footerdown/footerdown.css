@@ -1,0 +1,18 @@
+.footer_down{
+    background-color: #384757;
+    height: 14vh;
+    color: var(--color-bg);
+    text-align: center;
+}
+.footer_down div{
+    position: relative;
+    display: inline;
+    top: 50%;
+    padding: 2%;
+}
+@media only screen and (max-width: 419px) {
+    .footer_down div{
+        top: 20%;
+        font-size: 1rem;
+    }
+}

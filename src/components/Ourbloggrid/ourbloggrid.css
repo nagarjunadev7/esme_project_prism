@@ -1,0 +1,103 @@
+.container {
+  display: grid;
+  box-sizing: border-box;
+  position: relative;
+  top: 5vh;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row dense;
+  grid-template-areas:
+    "div1 div1 div1 div2 div2 div5"
+    "div1 div1 div1 div2 div2 div5"
+    "div1 div1 div1 div3 div3 div5"
+    "div1 div1 div1 div4 div4 div6"
+    "div1 div1 div1 div4 div4 div6";
+}
+
+.div1_two {
+  grid-area: div1;
+  width: 10%;
+}
+
+.div2_two {
+  grid-area: div2;
+  height: 428px;
+  width: 559px;
+  border-radius: 0px;
+  background-color: #73b4b6;
+  font-size: 4rem;
+  color: var(--color-bg);
+}
+.div2_two h1 {
+  position: relative;
+  left: 15%;
+}
+
+.div3_two {
+  grid-area: div3;
+  height: 224px;
+  width: 559px;
+  border-radius: 0px;
+  background-color: #ffffff;
+}
+
+.div4_two {
+  grid-area: div4;
+}
+
+.div5_two {
+  grid-area: div5;
+}
+
+.div6_two {
+  grid-area: div6;
+}
+
+.loyality {
+  position: relative;
+  left: 40%;
+  background: #41889d;
+  border-radius: 8px;
+  color: var(--color-bg);
+  padding: 25px 70px;
+  font-size: 1.4rem;
+  border: none;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+.div3_two {
+  display: flex;
+  width: 90%;
+}
+.div3_two h4 {
+  position: relative;
+  left: 10%;
+  top: 10%;
+  font-size: 24px;
+}
+.div3_two p {
+  position: relative;
+  left: 10%;
+  top: 15%;
+  width: 80%;
+  font-size: 18px;
+}
+
+.div6_two {
+  background-color: #73B4B6;
+}
+
+@media only screen and (max-width: 1300px) {
+  .loyality{
+    left: 20%;
+  }
+}
+@media only screen and (max-width: 419px) {
+  .loyality{
+    padding: 13px 30px;
+    left: 8%;
+  }
+  
+}

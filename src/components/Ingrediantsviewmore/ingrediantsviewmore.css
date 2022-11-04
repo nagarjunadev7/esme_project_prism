@@ -1,0 +1,46 @@
+.viewmore_btn{
+    position: relative;
+    top: -17vh;
+    z-index: 0;
+}
+.viewmore_btn button{
+    position: relative;
+    top: 40%;
+    left: 45%;
+    background-color: #FFFFFF;
+    padding: 1rem 2.5rem;
+    color: #41889D;
+    font-size: 1.2rem;
+    border: none;
+}
+.session_button button{
+    background-color: #41889d;
+    border-radius: 8px;
+    margin-top: 4rem;
+    padding: 1.5rem 5rem;
+    color: #FFFFFF;
+    position: relative;
+    left: 40%;
+  }
+  
+  @media only screen and (max-width: 419px) {
+    .viewmore_btn button{
+        position: relative;
+        top: 40%;
+        left: 28%;
+        background-color: #FFFFFF;
+        padding: 0.9rem 1.8rem;
+        color: #41889D;
+        font-size: 1.2rem;
+        border: none;
+    }
+    .session_button button{
+        background-color: #41889d;
+        border-radius: 8px;
+        margin-top: 4rem;
+        padding: 1rem 3rem;
+        color: #FFFFFF;
+        position: relative;
+        left: 8%;
+      }
+  }

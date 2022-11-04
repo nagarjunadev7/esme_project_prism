@@ -1,0 +1,22 @@
+.esmeflex{
+  margin-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.esmeflex img {
+position: relative;
+top: 10vh;
+height: auto;
+width: 25%;
+cursor: pointer;
+}
+@media only screen and (max-width: 1300px) {
+  .esmeflex{
+    margin-top: 60vh;
+  }
+}
+@media only screen and (max-width: 419px) {
+  .esmeflex{
+    margin-top: 90vh;
+  }
+}
